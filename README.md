@@ -16,6 +16,7 @@ if (paramIndex != -1) {
     urlWithoutParams = url.substring(0, paramIndex);
 }
 
+// endpoints
 if (url.contains("/v1/metrics") ||
     url.contains("/analytics") ||
     url.contains("/tracking") ||
@@ -37,6 +38,7 @@ if (url.contains("/v1/metrics") ||
     return false;
 }
 
+// domains
 if (url.contains("px.ads.linkedin.com") ||
     url.contains("googletagmanager.com") ||
     url.contains("facebook.com/tr") ||
@@ -57,6 +59,7 @@ if (url.contains("px.ads.linkedin.com") ||
     return false;
 }
 
+// extensions file
 if (urlWithoutParams.endsWith(".woff") ||
     urlWithoutParams.endsWith(".woff2") ||
     urlWithoutParams.endsWith(".ttf") ||
