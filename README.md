@@ -4,7 +4,7 @@
 1. Open Burp Suite
 2. Proxy -> HTTP History -> Filter Settings -> HTTP History filter -> Script Mode -> Paste Bamba Filter
 
-Example:
+Sample:
 
 <img width="948" height="419" alt="image" src="https://github.com/user-attachments/assets/d19ab424-78f4-4829-bb39-dd313c421e0e" />
 
